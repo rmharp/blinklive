@@ -9,7 +9,7 @@ BlinkLive offers a pair of Python scripts designed to extend the live view funct
 - **Functionality:** Automates interactions with the Blink app downloaded from the App Store. Utilizes RGB value recognition for the 'continue' button in the app, enabling extended live view.
 - **Setup:** Users need to identify and set the RGB values of the 'continue' button specific to their system. A default value is provided, but customization may be necessary for optimal performance.
 
-### `continue_.py`
+### `continue_v2.py`
 - **Target Platform:** Non-macOS Systems (via BlueStacks)
 - **Functionality:** Similar to `continue?.py`, but adapted for systems where the Blink app is not directly available from the App Store. It works through the BlueStacks emulator.
 - **Setup:** Requires setting RGB values as per the system's display characteristics. The process for RGB value identification is the same as in `continue?.py`.
