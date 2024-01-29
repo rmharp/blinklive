@@ -15,7 +15,7 @@ BlinkLive offers a pair of Python scripts designed to extend the live view funct
 - **Setup:** Requires setting RGB values as per the system's display characteristics. The process for RGB value identification is the same as in `continue?.py`.
 
 ## Usage and Customization
-Both scripts operate by taking periodic screenshots, identifying the 'continue' button based on RGB values, and automating mouse movements to click the button. Users need to set the RGB values and tolerance for their specific setup. Instructions for finding RGB values are provided [here](https://imagecolorpicker.com/en), with a link to an online RGB finder tool.
+Both scripts operate by taking periodic screenshots, identifying the 'continue' button based on RGB values, and automating mouse movements to click the button. Users need to set the RGB values and tolerance for their specific setup. Instructions for finding RGB values are provided [here](https://imagecolorpicker.com/en), with a link to an online RGB finder tool. After setting the RGB, adjust the tolerance constant as neccesary until the minimum is achieved that can accurately, reliably identify the continue? button and play button.
 
 ## Disclaimer
 These scripts are intended for personal use and to enhance user experience. Users should ensure compliance with Blink's terms of service and applicable laws.
